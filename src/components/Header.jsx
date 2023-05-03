@@ -18,7 +18,7 @@ const Header = () => {
               aria-label="Search" />
         </Navbar.Text>
         <Nav>
-          <Dropdown alignRight>
+          <Dropdown alignright="true">
             <Dropdown.Toggle variant="success">
               <FaShoppingCart color="white" fontSize="25px" />
               <Badge>10</Badge>
