@@ -1,12 +1,13 @@
 import { FaShoppingCart } from "react-icons/fa";
 import { Container, Navbar, FormControl, Nav, Dropdown, Badge } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <Navbar bg="dark" variant="dark" style={{ height: 80 }}>
       <Container>
         <Navbar.Brand>
-          <a href="/">Shopping cart</a>
+          <Link to="/">Shopping Cart</Link>
         </Navbar.Brand>
         <Navbar.Text className="search">
             <FormControl
